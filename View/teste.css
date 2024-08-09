@@ -1,0 +1,39 @@
+.assentos {
+    flex: 1;
+    margin-right: 150px;
+}
+
+.resumo {
+    flex: 1;
+}
+
+table {
+    border-spacing: 6px;
+}
+
+#table tr {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 5px;
+}
+
+#table td {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+#table .disponivel {
+    background-color: #90EE90; /* Verde claro */
+    color: #90EE90;
+}
+
+#table .ocupado {
+    background-color: #FF6347; /* Vermelho tomate */
+    color: #FF6347;
+}
+
+#table .corredor {
+    visibility: hidden;
+}
