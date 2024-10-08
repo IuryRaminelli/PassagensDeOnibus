@@ -150,7 +150,7 @@ session_start();
                     </table>
                     <div class="row">
                         <div class="col-md-12">
-                            <form id="form-selecionados" method="POST" action="seu_arquivo_php.php">
+                            <form id="form-selecionados" method="POST" action="TelaPagamento.php">
                                 <input type="hidden" id="total" name="total" value="">
                                 <div id="assentos-selecionados"></div>
                                 <input type="submit" class="btn btn-primary" value="Continuar" name="enviar">
