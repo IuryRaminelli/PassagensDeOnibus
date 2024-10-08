@@ -155,7 +155,7 @@ include_once '../Controller/ConOnibus.php';
                     <img src="<?php echo $cia->getlogo();?>" class="img-fluid rounded-start" alt="<?php echo $cia->getnomeCIA(); ?>">
                 </div>
                 <div class="col-md-8">
-                    <form action="TelaTeste.php" method="post">
+                    <form action="TelaAssentos.php" method="post">
                         <div class="card-body d-flex flex-column flex-md-row align-items-md-center justify-content-md-between">
                             <input type="hidden" type="number" name="idonibus" value="<?php echo $onibus->getidOnibus()?>">
                             <input type="hidden" name="onibus" value="<?php echo $onibus->getnumOnibus()?>">
